@@ -1,0 +1,3 @@
+# Font cache for scripts/build_profile_assets.py
+scripts/.cache/
+__pycache__/
