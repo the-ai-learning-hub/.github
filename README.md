@@ -47,13 +47,13 @@ From top to bottom, [`profile/README.md`](profile/README.md) has:
 
 1. **Hero** (`hero-*.svg`): the name, a one-line promise, `>>> understand(every_line_you_run)`, and the curriculum drawn as a neural network.
 2. **The path** (`lesson-*.svg`): one clickable "station" per lesson on a dotted track, like a metro map. Each station shows a line of code typical of that lesson and two facts about it. The last station (`lesson-next-*.svg`) is dashed and announces the lesson being built. A table below links to the slides, repository and Colab of each lesson.
-3. **Why learn the basics if AI can write the code?** (`notebook-*.svg`): a notebook cell where an agent writes code and *you* understand it, followed by the "before you press Enter" checklist from Lesson 01, with each question linked to the slide that answers it.
+3. **Why learn the basics if AI can write the code?** (`notebook-*.svg`): a notebook cell where an agent writes code and *you* understand it, followed by the "before you press Enter" checklist, with each question linked to the slide (in Lessons 01 to 03) that answers it.
 4. **Start in a minute**, **Help make it better** and the licence line, in plain Markdown.
 
 ## Design notes
 
 - **The curriculum is a neural network.** In the hero, each lesson is a layer, the dashed layer is the lesson being built, and the last node is *You*. A signal runs through it every seven seconds; it stays still for anyone with reduced motion turned on. It is the only animation on the page.
-- **Colours come from the lessons.** The three accent colours are the Palmer Penguins species colours (Adélie, Chinstrap, Gentoo) from the dataset used in Lesson 01, set on polar-night and ice backgrounds: teal for 00, orange for 01, purple for 02.
+- **Colours come from the lessons.** The first three accent colours are the Palmer Penguins species colours (Adélie, Chinstrap, Gentoo) from the dataset used in Lesson 01, set on polar-night and ice backgrounds: teal for 00, orange for 01, purple for 02. Later lessons continue with sea-ice blue (03), krill coral and sun gold.
 - **Light and dark.** Every image is served with `<picture>` and `prefers-color-scheme`, so it matches the viewer's GitHub theme. GitHub's mobile apps always show the light version.
 - **Absolute image URLs.** Images point to `https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/…`, because relative paths are not reliable on an organization profile. This means a new or changed image only shows up on the profile **after it is pushed to `main`**.
 - **No external image services.** Everything is in this repository, so the page can't break because a third-party badge or banner service goes down.
