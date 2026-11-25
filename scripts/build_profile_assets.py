@@ -80,6 +80,19 @@ LESSONS = [
         colab=f"https://github.com/{ORG}/02-machine-learning-fundamentals#o-percurso",
         color="purple",
     ),
+    dict(
+        repo="03-applied-ai-projects",
+        num="03",
+        short="Applied AI",
+        title="Applied AI: text, images, sound",
+        text="Build a spam filter, read tweets, tell cats from dogs, then "
+        "connect words, photos and voices with CLIP, Whisper and RAG.",
+        code=[("clip_zero_shot", "fn"), ("(", "muted"), ("photos", "text"),
+              (", ", "muted"), ('["cat", "dog"]', "str"), (")", "muted")],
+        facts=["5 notebooks and 3 challenges", "Opens in Google Colab"],
+        colab=f"https://github.com/{ORG}/03-applied-ai-projects#the-path",
+        color="blue",
+    ),
 ]
 
 NEXT = dict(

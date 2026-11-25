@@ -23,7 +23,8 @@ Each lesson builds on the one before it. No programming background is needed to 
 <a href="https://github.com/the-ai-learning-hub/00-environment-setup"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-00-dark.svg"><img alt="Lesson 00, Setup &amp; first steps: Install uv, VS Code and Git, then write your first three Python programs and push them to GitHub." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-00-light.svg" width="100%"></picture></a>
 <a href="https://github.com/the-ai-learning-hub/01-python-as-ai-first-steps"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-01-dark.svg"><img alt="Lesson 01, Python: first steps: Variables, loops, functions and classes, then pandas and charts with real data: penguins, the Titanic and a novel." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-01-light.svg" width="100%"></picture></a>
 <a href="https://github.com/the-ai-learning-hub/02-machine-learning-fundamentals"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-02-dark.svg"><img alt="Lesson 02, Machine Learning fundamentals: Run a real project with CRISP-DM, train and judge models, build a neural network from scratch and teach an agent to play." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-02-light.svg" width="100%"></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-next-dark.svg"><img alt="Lesson 03 is being built." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-next-light.svg" width="100%"></picture>
+<a href="https://github.com/the-ai-learning-hub/03-applied-ai-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-03-dark.svg"><img alt="Lesson 03, Applied AI: text, images, sound: Build a spam filter, read tweets, tell cats from dogs, then connect words, photos and voices with CLIP, Whisper and RAG." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-03-light.svg" width="100%"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-next-dark.svg"><img alt="Lesson 04 is being built." src="https://raw.githubusercontent.com/the-ai-learning-hub/.github/main/profile/assets/lesson-next-light.svg" width="100%"></picture>
 </div>
 <!-- path:end -->
 
@@ -35,6 +36,7 @@ Every lesson has the same three parts: **slides** that explain one idea at a tim
 | **00** Setup & first steps | [Open](https://the-ai-learning-hub.github.io/00-environment-setup/) | [Repository](https://github.com/the-ai-learning-hub/00-environment-setup) |  |
 | **01** Python: first steps | [Open](https://the-ai-learning-hub.github.io/01-python-as-ai-first-steps/) | [Repository](https://github.com/the-ai-learning-hub/01-python-as-ai-first-steps) |  |
 | **02** Machine Learning fundamentals | [Open](https://the-ai-learning-hub.github.io/02-machine-learning-fundamentals/) | [Repository](https://github.com/the-ai-learning-hub/02-machine-learning-fundamentals) | [Google Colab](https://github.com/the-ai-learning-hub/02-machine-learning-fundamentals#o-percurso) |
+| **03** Applied AI: text, images, sound | [Open](https://the-ai-learning-hub.github.io/03-applied-ai-projects/) | [Repository](https://github.com/the-ai-learning-hub/03-applied-ai-projects) | [Google Colab](https://github.com/the-ai-learning-hub/03-applied-ai-projects#the-path) |
 <!-- table:end -->
 
 <br>
@@ -58,6 +60,7 @@ You don't need to write every line yourself. You need to understand every line y
 | How long will it run? | [01 · Loops](https://the-ai-learning-hub.github.io/01-python-as-ai-first-steps/#loops) |
 | What happens if it fails? | [01 · Modules, errors and classes](https://the-ai-learning-hub.github.io/01-python-as-ai-first-steps/#reuse) |
 | Is the model's answer any good? | [02 · Metrics](https://the-ai-learning-hub.github.io/02-machine-learning-fundamentals/#metricas) |
+| Can the model be fooled? | [03 · Fool the sentiment model](https://the-ai-learning-hub.github.io/03-applied-ai-projects/#challenge-1) |
 
 <br>
 
